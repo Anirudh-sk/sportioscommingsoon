@@ -708,3 +708,58 @@ textarea:focus {
         line-height: 30px;
     }
 }
+
+/* social */
+.social-icons a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 20%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 24px;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.social-icons a.whatsapp {
+    background-color: transparent;
+    border: 2px solid skyblue;
+}
+
+.social-icons a.instagram {
+    background-color: transparent;
+    border: 2px solid skyblue;
+}
+
+.social-icons a.youtube {
+    background-color: transparent;
+    border: 2px solid skyblue;
+}
+
+.social-icons a.whatsapp:hover {
+    background-color: green;
+}
+
+.social-icons a.instagram:hover {
+    background-color: #E4405F;
+}
+
+.social-icons a.youtube:hover {
+    background-color: red;
+}
+body::-webkit-scrollbar {
+    width: 0.35em;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background-color: #062c3f;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #00aced;
+    border-radius: 30px;
+  }
+  
